@@ -1,0 +1,7 @@
+CCFLAGS += -Wall -O2 ;
+C++FLAGS += -Wall -O2 ;
+
+Main fft_test : fft.c fft_impl.c functions.c main.c ;
+
+LINKLIBS on fft_test$(SUFEXE) = -lm ;
+
