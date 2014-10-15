@@ -1,4 +1,4 @@
-floating-point-fft
+fft
 ==================
 
 floating point fft
